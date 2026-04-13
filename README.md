@@ -67,14 +67,16 @@ TaskFlow — Task Management System
 
 
 3. Running Locally
-    
+
 
     Requires only Docker + Docker Compose installed
     
     git clone: https://github.com/Shashank2104125/taskflow
     
     cd taskflow
-    
+
+    update POSTGRES_USER && POSTGRES_PASSWORD in .env.example
+
     cp .env.example .env
     
     docker compose up --build
